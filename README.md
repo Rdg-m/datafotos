@@ -28,7 +28,7 @@ pip install Pillow
 ## Usage
 
 ```bash
-python main.py -p /path/to/folder
+python datafotos -p /path/to/folder
 ```
 
 ### Options
@@ -40,14 +40,14 @@ python main.py -p /path/to/folder
 
 ```bash
 # Basic usage
-python main.py -p /home/mango/images/vacation
+python datafotos -p /home/images/vacation
 
 # With verbose output
-python main.py -p /home/mango/images/vacation --verbose
+python datafotos -p /home/images/vacation --verbose
 
 # Rename folder with date prefix added
-# Before: /home/mango/images/vacation
-# After:  /home/mango/images/2026-03-08 vacation
+# Before: /home/images/vacation
+# After:  /home/images/2026-03-08 vacation
 ```
 
 ## How It Works
